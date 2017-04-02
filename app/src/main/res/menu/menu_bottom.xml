@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".MainActivity">
+    <item
+        android:id="@+id/action_facebook"
+        android:orderInCategory="100"
+        android:icon="@drawable/ic_facebook"
+        android:title="Facebook"
+        app:showAsAction="always"/>
+    <item
+        android:id="@+id/action_youtube"
+        android:orderInCategory="100"
+        android:icon="@drawable/ic_youtube"
+        android:title="Youtube"
+        app:showAsAction="always"/>
+    <item
+        android:id="@+id/action_twitter"
+        android:orderInCategory="100"
+        android:icon="@drawable/ic_twitter"
+        android:title="Twitter"
+        app:showAsAction="always"/>
+    <item
+        android:id="@+id/action_google_plus"
+        android:orderInCategory="100"
+        android:icon="@drawable/ic_google_plus"
+        android:title="Google plus"
+        app:showAsAction="always"/>
+
+
+</menu>

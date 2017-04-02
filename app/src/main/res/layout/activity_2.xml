@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/grey"
+    tools:context=".SecondActivity">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar_main"
+        android:layout_height="?attr/actionBarSize"
+        android:layout_width="match_parent"
+        android:layout_margin="8dp"
+        android:elevation="4dp"
+        android:layout_alignParentLeft="true"
+        android:minHeight="?attr/actionBarSize"
+        android:background="@drawable/shadow"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light"/>
+
+    <!--toolbar_r_corners kenarları actionbarı düzenledik -->
+
+    <TextView
+        android:layout_below="@+id/toolbar_main"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Hello World!"
+        android:textColor="@color/black"/>
+
+    <include
+        android:id="@+id/inc_toolbar_bottom"
+        layout="@layout/toolbar_bottom"    />
+
+</RelativeLayout>
